@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adnan's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Adnan | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <header class="bg-blue-600 text-white p-6 text-center">
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-6 text-center shadow">
     <h1 class="text-3xl font-bold">Muhammad Adnan</h1>
-    <p class="text-lg">Aspiring Web Developer | BS Library Science & Management</p>
+    <p class="text-lg">BS Physics Student at PIEAS</p>
   </header>
 
-  <section class="p-6 max-w-3xl mx-auto">
-    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-    <p>A passionate learner and aspiring developer, currently exploring web development, programming, and AI tools. I love building digital solutions that make a difference.</p>
+  <!-- Profile Section -->
+  <section class="flex flex-col items-center mt-8">
+    <img src="myphoto.jpg" alt="Adnan's Photo" class="w-40 h-40 rounded-full shadow-lg border-4 border-white" />
+    <h2 class="text-xl mt-4 font-semibold">Aspiring Physicist & Tech Enthusiast</h2>
+    <p class="text-center max-w-xl mt-2 px-4">
+      I'm currently pursuing my Bachelor's in Physics from PIEAS. I'm passionate about exploring the world of science, technology, and AI. I enjoy coding, learning new skills, and applying them to real-world problems.
+    </p>
   </section>
 
-  <section class="p-6 max-w-3xl mx-auto">
-    <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-    <ul class="list-disc pl-6 space-y-2">
-      <li><strong>Aggregate Calculator</strong> – Built for calculating university merit.</li>
-      <li><strong>Smart Scripts</strong> – A collection of simple scripts and tools.</li>
-    </ul>
+  <!-- Projects -->
+  <section class="mt-12 px-6">
+    <h3 class="text-2xl font-bold text-center mb-4">Projects</h3>
+    <div class="grid gap-6 md:grid-cols-2">
+      <div class="bg-white p-4 rounded shadow">
+        <h4 class="text-xl font-semibold">Smart Scripts</h4>
+        <p>A collection of useful scripts and tools created using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h4 class="text-xl font-semibold">Aggregate Calculator</h4>
+        <p>An online calculator to compute admission aggregates for students.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="p-6 max-w-3xl mx-auto">
-    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-    <p>Email: your-email@example.com</p>
-    <p>GitHub: <a href="https://github.com/muhammad-adnan-web" class="text-blue-600 underline">muhammad-adnan-web</a></p>
-  </section>
-
-  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
-    © 2025 Muhammad Adnan. All rights reserved.
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center p-4 mt-12">
+    <p>© 2025 Muhammad Adnan | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
-
